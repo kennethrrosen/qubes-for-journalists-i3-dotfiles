@@ -1,5 +1,0 @@
-#!/bin/bash
-
-root=$(df -h | awk '$NF=="/"{printf "%s", $5}')
-
-echo "$root"
