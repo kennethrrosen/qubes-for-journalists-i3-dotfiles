@@ -1,6 +1,0 @@
-configuration {
-	modi: "drun";
-	show-icons: true;
-	icon-theme: "Gruvbox";
-	theme: "pare";
-}
