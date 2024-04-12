@@ -1,8 +1,0 @@
-#!/usr/local/bin/bash
-# Description: Get the total number of VMs running
-
-vms() {
-     num=$(doas vm list|grep Running|wc -l|tr -d " ")
-     echo "$num"
-}
-vms
